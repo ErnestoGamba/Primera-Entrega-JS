@@ -1,0 +1,154 @@
+/*
+.maparea {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: rgb(255, 72, 0);
+    background-color: map-get($coloresGenerales, moradomedio) ;
+  }*/
+
+
+.FormContacto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: start;
+  width: fit-content;
+  background-color: #715C8A;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: calibri;
+  Color: white;
+
+}
+
+  .TituloFormContacto {
+    font-family: calibri;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .campos {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #715C8A;
+    padding: auto;
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    
+  }
+  .forms {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   margin-right: 20px;
+    width: 350px;
+    background-color: #715C8A;
+  }
+
+  .TextAreaCont {
+    display: flex;
+    flex-direction: column;      
+    width: 350px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #715C8A;
+    
+
+   
+  }
+  .LabelTextAreaCont {
+    font-family: calibri;
+            font-size: 20px;
+            font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  .CampoTexto {
+    font-family: calibri;
+            font-size: 20px;
+            font-weight: 600;
+  }
+
+  .BotonFormContacto {
+    display: flex;
+                width: 120px;
+                background-color: #8569ab;
+                border: 0;
+                letter-spacing: 1px;
+                border-radius: 4px;
+                padding: 10px;
+                color: #ffff;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 16px;
+                font-family: calibri;
+                font-weight: 600;
+                justify-content: center;
+                align-self: center;
+  }
+
+
+@media all and (max-width:700px) {
+  .forms {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 0px;
+    width: 350px;
+    background-color: #715C8A;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+  .FormularioContacto{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+   padding-bottom: 0px;
+    margin-top: 10%;  
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffd1c3 ;
+    border-color: map-get($coloresGenerales, marfil) ;
+    border-width: 60px;
+  }
+  */
+/* yt video */
+
+/*
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 800px;
+    width: 800px;
+}
+*/

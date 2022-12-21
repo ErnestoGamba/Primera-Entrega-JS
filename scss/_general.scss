@@ -1,0 +1,155 @@
+@import "colors" ;
+/*
+body {
+  background-image: url("../img/fondo2.jpg");
+  height: 100%;
+  background-size: cover;
+  padding: 1px;
+  gap: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+} */
+
+body {
+  width: 100%;
+  height: 100%;
+  background-size:400% 400%;
+  background-image: linear-gradient(45deg, #7E5A9B, #c2b3d4,pink, );
+  background-attachment: fixed;
+  position: relative;
+  animation: AnimationBg 5s ease infinite;
+  padding:0px !important ; 
+}
+
+@keyframes AnimationBg {
+  0% {background-position: 0 50%;} 
+  50% {background-position: 100% 50%;} 
+  100% {background-position: 0 50%;} 
+}
+/*
+h1 {
+    position: relative;
+    top: 1vh;
+    right: auto;
+    left: auto;
+    height: auto;
+    width: fit-content;
+    margin-top: 1.5%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: map-get($coloresGenerales, moradomedio);
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: map-get($coloresGenerales, marfil);
+    font-size: 30px
+  }*/
+  h1 {
+    display: iblock;
+      height: fit-content;
+      width: fit-content;
+      padding: 5px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 100px;
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #FFFF ;
+         border-width: 5px;
+      font-family: 'Space Mono', monospace;   
+      background-color: #fce0e600;
+      text-decoration: solid;  
+  
+  }
+
+  h2 {
+    display: iblock;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: map-get($coloresGenerales, marfil);
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    background-color: map-get($coloresGenerales, rosa);
+    border-radius: 20px;
+    text-decoration: solid;
+    color: map-get($coloresGenerales, marfil);
+    animation-name: animacionh2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  @keyframes animacionh2 {
+    50% {
+      background-color: rosa;
+    }
+  }
+  
+  h3 {
+    color: map-get($coloresGenerales, blanco);
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+  }
+  
+  h4 {
+    color: map-get($coloresGenerales, blanco);
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    margin-bottom: 2%;
+  }
+    
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .PTitulos{
+    display: flex;
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media all and (max-width:618px) { 
+  .PTitulos{
+  display: flex;
+  font-family: 'Space Mono', monospace;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+}
