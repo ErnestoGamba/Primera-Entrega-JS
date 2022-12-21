@@ -142,11 +142,13 @@ function tienda2() {
 function concatenadorDeTexto () {
     let txt1 = prompt("ingresa el texto a concatenar")
     let txt2 = prompt("ingresa la segunda parte de el texto a concatenar")
-    alert("texto concatenado: " + txt1 + " " + txt2 )
+    alertconcatenadorDeTexto(txt1,txt2)
     menuPrincipal ()
 }
 
-function bye (){
+function alertconcatenadorDeTexto (txt1,txt2){ alert("texto concatenado: " + txt1 + " " + txt2 )}  
+
+function bye (){    
     alert("gracias por visitarnos")
 }
 
